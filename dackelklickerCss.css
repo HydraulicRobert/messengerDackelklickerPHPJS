@@ -1,0 +1,98 @@
+	body
+	{
+		width: 100%;
+		height: 100%;
+		background-color: black
+	}
+	div.table
+	{
+		margin: 0 auto;
+		width: 50%;
+		height: 100%;
+		display: table;
+		border: 1px solid white;
+		border-collapse: collapse
+	}
+	div.tr
+	{
+		border: 1px solid white;
+		display: table-row
+		}
+	div.tr
+	{
+		display: table-row
+	}
+	div.td
+	{
+		display: table-cell
+	}
+	div.startButtonDiv{
+		width: 242%;
+		height: 100%;
+		margin: 0 auto
+	}
+	input[type=button],[type=submit]{
+		font-size: 250%;
+		background-color: grey;
+		color: white;
+		-webkit-transition: 1s ease-in-out;
+		-moz-transition: 1s ease-in-out;
+		-o-transition: 1s ease-in-out;
+		transition: 1s ease-in-out
+	}
+	input.textfeldUnklickbarDackeln{
+		text-align: right;
+		font-size: 250%;
+		pointer-events: none;
+		background-color: black;
+		color: white;
+		border: none
+	}
+	input.textFeldUnsichtbar{
+		display: none;
+		pointer-events: none
+	}
+	input.textfeldUnklickbarNachricht{
+		font-size: 250%;
+		width: 231.5%;
+		pointer-events: none;
+		background-color: black;
+		color: green;
+		border: none
+	}
+	input.textfeldUnklickbarAnleitung{
+		font-size: 250%;
+		width: 231.5%;
+		pointer-events: none;
+		background-color: black;
+		display: none;
+		color: white;
+		border: none
+	}
+	input.buttonDackeln{
+	}
+	input.buttonStart{
+		width: 96%;
+		line-height: 200%;
+	}
+	input.buttonSpeichern{
+		width: 232.5%;
+		line-height: 200%;
+		display: none; 
+		margin: 0 auto
+	}
+	input.buttonDackeln:hover, input.buttonStart:hover, input.buttonSpeichern:hover{
+		background-color: white;
+		color: black
+	}
+	#chromeBild{
+		pointer-events: none;
+		height: 20%;
+		font-size: 800%;
+		width: 50%;
+		top: 0px;
+		left: 0px;
+		position: absolute;
+		border: 1px solid white;
+		display: none
+	}

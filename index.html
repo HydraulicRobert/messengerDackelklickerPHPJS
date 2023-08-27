@@ -1,0 +1,69 @@
+
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<META CHARSET="UTF-8">
+<TITLE>login</TITLE>
+<!--verlinkung css-->
+<link rel = "Stylesheet" type = "text/css" href = "style/netzwerkCss.css">
+</HEAD>
+<BODY>
+<!--formular mit den ganzen buttons-->
+	<form action="programm.php" method="POST">
+	<div class = "table">
+	 <div class = "tr">
+	  <div class = "td">
+			<a name = "indexNutzername" id = "indexText">Nutzername:</a>
+		 </div>
+		 <div class = "td">
+		 <!--nutzernamensfeld-->
+			<input type="text" name="Name" id="indexTextfeld"/>
+			</div>
+		 </div>
+		 <div class = "tr">
+		  <div class = "td">
+			<a id = "indexText" name = "indexPasswort">Passwort:</a>
+			</div>
+			<div class = "td">
+			<!--passwortfeld-->
+			<input type = "password" name = "passwort" id = "indexTextfeld" />
+			</div>
+			</div>
+			<div class = "tr">
+			<!--absendebutton fuer login-->
+			<input type = "submit" name = "absenden" value = "Einloggen" name = "indexEinloggen" id = "indexButton"/>
+			</div>
+			<div class = "tr">
+			<p><a href = "Registrieren.php">Konto erstellen</a></p>
+			</div>
+			</div>
+	</form>
+	
+		<div class = "tableSWFIndex">
+			<div class = "trSWFIndex">
+				<div class = "tdSWFIndex">
+					<a href="programm/flashplayer32_firefox_install.exe"><img src = "programm/bild.png" alt="flash player win 10 firefox" name = "flashbild" id  = "flashbild"/></a>
+					<a href="programm/flashplayer32pp_opera_chromium_install.exe"><img src = "programm/bild.png" alt="flash player win 10 opera chromium" name = "flashbild" id  = "flashbild"/></a>
+					<a href="programm/flashplayer32_win7xpvista_install.exe"><img src = "programm/bild.png" alt="flash player win 7 xp vista firefox" name = "flashbild" id  = "flashbild"/></a>
+					<a href="programm/adobe-release-x86_linux.noarch.rpm"><img src = "programm/bild.png" alt="flash player linux 32 bit" name = "flashbild" id  = "flashbild"/></a>
+					<a><img src = "programm/bild.png" alt="flash player linux 32 bit" name = "flashbild" id  = "flashbild" onclick = "printSWF()"/></a>
+					<!--<input type = "button" name = "rufeSWF" id = "rufeSWF" onclick = "printSWF()" value = "suprise"/>-->
+				</div>
+			</div>
+		</div>
+		<div id = "teemoSWFDiv">
+			<object type = "application/x-shockwave-flash" data = "programm/Teemo.swf"   name = "teemoSWF" id = "teemoSWF"></object>
+		</div>
+		<script>
+			function printSWF(){
+				var objekt = document.getElementById("teemoSWFDiv");
+				console.log("hallo");
+				if(objekt.style.display == 'none'){
+					objekt.style.display = 'block';
+				}else{
+					objekt.style.display = 'none';
+				};
+			}
+</script>
+</BODY>
+</HTML>

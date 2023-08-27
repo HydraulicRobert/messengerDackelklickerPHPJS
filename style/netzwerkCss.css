@@ -1,0 +1,187 @@
+/*allgemein fuer alles zaehlend*/
+body{
+width: 98%;
+height: 100%;
+font-size: 250%;
+background-color: black;
+color: white
+}
+a{
+color: white
+}
+div.table{
+width: 100%;
+height: 100%;
+display: table;
+border-collapse: collapse
+}
+div.tr{
+width: 100%;
+display: table-row
+}
+div.td{
+display: table-cell
+}
+input{
+border: 1px solid white;
+font-size: 100%;
+background-color: black;
+-webkit-transition: 1s ease-in-out;
+-moz-transition: 1s ease-in-out;
+-o-transition: 1s ease-in-out;
+transition: 1s ease-in-out
+}
+
+/*registrieren*/
+#registrierenButton{
+width: 178%;
+line-height: 300%;
+font-size: 300%;
+background-color: grey;
+color: white
+}
+#registrierenButton:hover{
+background-color: WhiteSmoke;
+color: black
+}
+#registrierenText{
+width: 40%
+}
+#registrierenTextfeld{
+width: 100%;
+line-height: 100%
+}
+#registrierenTextfeld:hover{
+background-color: grey
+}
+#registrierenTextfeld:active{
+background-color: white
+}
+/*index*/
+div.tableSWFIndex{
+width: 100%;
+height: 100%;
+display: table;
+border-collapse: collapse
+}
+div.trSWFIndex{
+width: 100%;
+display: table-row
+}
+div.tdSWFIndex{
+text-align: left;
+display: table-cell
+}
+#indexButton{
+width: 178%;
+line-height: 300%;
+font-size: 300%;
+background-color: grey;
+color: white
+}
+#indexButton:hover{
+background-color: WhiteSmoke;
+color: black
+}
+#indexText{
+width: 40%
+}
+#indexTextfeld{
+width: 100%;
+line-height: 100%
+}
+#indexTextfeld:hover{
+background-color: grey
+}
+#indexTextfeld:active{
+background-color: white
+}
+#teemoSWF{
+	position: fixed;
+	left: 30%;
+	top: 10%;
+	width: 35%;
+	height: 60%
+}
+#teemoSWFDiv{
+	display: none
+}
+#flashbild{
+height: 10%;
+width: 10%;
+-webkit-transition: 1s ease-in-out;
+-moz-transition: 1s ease-in-out;
+-o-transition: 1s ease-in-out;
+transition: 1s ease-in-out
+}
+#flashbild:hover{
+background-color: white
+}
+/*posteingang*/
+div.inboxKontrolle{
+position: fixed;
+width: 60%;
+bottom: 0;
+left: 50%;
+transform: translate(-50%)
+}
+#inboxTextfeld{
+width: 128%;
+line-height: 200%;
+color: white
+}
+#inboxTextfeld:hover{
+background-color: grey
+}
+#inboxTextfeld:active{
+background-color: white
+}
+#inboxButtonSende{
+width: 65%;
+line-height: 200%;
+background-color: grey;
+color: white
+}
+#inboxButtonSende:hover{
+background-color: WhiteSmoke;
+color: black
+}
+#inboxButtonAktualisiere{
+width: 120%;
+line-height: 200%;
+background-color: grey;
+color: white;
+transform: translate(-55%)
+}
+#inboxButtonAktualisiere:hover{
+background-color: WhiteSmoke;
+color: black
+}
+#inboxButtonAdresse{
+width: 129%;
+line-height: 200%;
+background-color: grey;
+color: white;
+border: 1px solid white
+}
+#inboxButtonAdresse:hover{
+background-color: WhiteSmoke;
+color: black
+}
+#inboxButtonLoesche{
+width: 84%;
+line-height: 200%;
+background-color: grey;
+color: white
+}
+#inboxButtonLoesche:hover{
+background-color: WhiteSmoke;
+color: black
+}
+/*404*/
+#404Absatz{
+font-size: 100%
+}
+#404Link{
+font-size: 300%
+}
